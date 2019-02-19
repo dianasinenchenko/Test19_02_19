@@ -1,0 +1,256 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.diana.menutest1.fragments.FragmentSend">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+      >
+
+        <ImageButton
+            android:id="@+id/noviezn"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/novieznakomstva"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Новые знакомства"
+            />
+
+        <SeekBar
+            android:id="@+id/novieznPoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"
+            android:thumbTint="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+
+            />
+
+        <ImageButton
+            android:id="@+id/ued"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/experement1"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/title2"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Эксперименты"/>
+
+        <SeekBar
+            android:id="@+id/experimentPoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"/>
+
+
+        <ImageButton
+            android:id="@+id/drive"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/draiv"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/title3"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Драйв"/>
+
+        <SeekBar
+            android:id="@+id/draivPoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"/>
+
+        <ImageButton
+            android:id="@+id/mater"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/materialnoe"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/title4"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Материальное"/>
+        <SeekBar
+            android:id="@+id/materialnoePoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="200dp">
+
+        <ImageButton
+            android:id="@+id/uedinenie"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/uedinenie2"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/title11"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:text="Уединение"/>
+
+        <SeekBar
+            android:id="@+id/uedineniePoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"/>
+
+        <ImageButton
+            android:id="@+id/priv"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/privichka"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/title22"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Привычка"/>
+
+        <SeekBar
+            android:id="@+id/privichkaPoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"
+           />
+
+        <ImageButton
+            android:id="@+id/garm"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/garmoniya"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/title33"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Гармония"/>
+
+        <SeekBar
+            android:id="@+id/garmoniyaPoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"/>
+
+        <ImageButton
+            android:id="@+id/dux"
+            android:layout_width="170dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/duxovnost"
+           android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/title44"
+            android:textColor="#2d2d2d"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:text="Духовность"/>
+
+        <SeekBar
+            android:id="@+id/duxovnostPoint"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:max="5"
+            android:progress="1"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        style="@style/AppTheme"
+        android:background="@color/colorPrimary"
+        android:text="Фильтрация"/>
+
+</FrameLayout>
+</ScrollView>

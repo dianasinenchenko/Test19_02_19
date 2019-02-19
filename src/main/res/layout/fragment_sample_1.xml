@@ -1,0 +1,72 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <RelativeLayout android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+            android:paddingLeft="120pt">
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/gps"
+           />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/panorama"
+            android:layout_toRightOf="@+id/imageButton6"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+           />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/play"
+            android:layout_toRightOf="@+id/imageButton7"
+            android:layout_marginRight="5pt"
+            />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="15dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:paddingLeft="48dp"
+            android:paddingRight="24dp"
+            android:lineSpacingExtra="3dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="@string/lorem_ipsum"
+
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test2_18_02_19</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="import_item">Import</string>
+    <string name="gallery_item">Gallery</string>
+    <string name="slideshow_item">Slideshow</string>
+    <string name="tools_item">Tools</string>
+    <string name="communicate_item">Communicate</string>
+    <string name="share_item">Share</string>
+    <string name="send_item">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="lorem_ipsum">
+
+    </string>
+
+    <string name="hram1">
+        Собор Благовещения Пресвятой Богородицы, кратко Благовещенский собор в Харькове — самый большой по размерам Кафедральный собор Восточной Европы Харьковско-Богодуховской епархии
+        Украинской православной церкви Московского патриархата.
+        Первая церковь во имя Благовещения Пресвятой Богородицы основана около 1655 г., одновременно с Николаевской и Рождественской.
+        Деревянный однопрестольный храм Залопанского прихода был выполнен в традиционных украинских трёхкупольных формах с отдельно стоящей деревянной рубленной колокольней и обнесён
+        плетнём вместо ограды. Бурное развитие поселения дало толчок к расширению прихода: согласно Куряжским актам 1720 г.
+        в штате церкви находятся уже двое священников. После крупного пожара в 1738 г. восстановлена в том же виде. Изображение сохранилось на плане города 1787 года.
+
+    </string>
+    <string name="hram2">
+
+    </string>
+    <string name="hram3">
+
+    </string>
+    <string name="hram4">
+
+    </string>
+    <string name="hram5">
+
+    </string>
+    <string name="hram6">
+
+    </string>
+
+    <string name="app_add">Добавить заявку</string>
+    <string name="app_edit">Изменить заявку</string>
+    <string name="location">локация</string>
+    <string name="name">название</string>
+    <string name="author">автор</string>
+    <string name="date">дата</string>
+
+
+    <string name="full_name">full name</string>
+    <string name="email_id">email id</string>
+    <string name="profile_details">profile details</string>
+    <string name="salary_show">salary show</string>
+
+    <string name="google_maps_key">AIzaSyC8Go0iwhfp6OaNTZRm13XJd9gqB5t2UEQ</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="facebook_app_id">145634995501895</string>
+    <string name="token">EAACEdEose0cBAGVJymjMJuRUL2rmu9mlxomVGk0dbZBqfIXsXh60s8nOK79l5nWzXi9G14U12Gq8M3Y4HbRfUQvOvvnpSKyHEX2ennDZCxDiCZB393dWUZA0RbSzafBZBG5ZA69mgHTSJtfCxJUZAWECqkizR73sgb9E76GKPt4U1g4Ued3li8dPZAmHvCLzkNUZD5</string>
+</resources>

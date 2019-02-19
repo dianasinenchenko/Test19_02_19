@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.diana.menutest1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".config.RealmConfig"
+        android:allowBackup="true"
+        android:icon="@mipmap/tori"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+
+        <activity
+
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".places.ClassOne"/>
+        <activity android:name=".places.MapsM"/>
+        <activity android:name=".places.ArchitectureActivityMap"/>
+
+
+        <activity
+            android:name=".app.AddActivity"
+            android:label="@string/app_add"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".app.EditFriendActivity"
+            android:label="@string/app_edit"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC8Go0iwhfp6OaNTZRm13XJd9gqB5t2UEQ"/>
+              <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps">
+        </activity>
+        <activity android:name=".app.EditRequestActivity"
+                  android:parentActivityName=".MainActivity"/>
+        <activity android:name=".adapter.AddRequestActivity"
+                  android:parentActivityName=".MainActivity"/>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+                   android:value="@string/facebook_app_id"/>
+    </application>
+
+</manifest>
